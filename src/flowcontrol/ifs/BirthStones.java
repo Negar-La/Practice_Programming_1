@@ -6,7 +6,6 @@ public class BirthStones {
     public static void main(String[] args) {
         int monthNumber;
 
-
         Scanner myScanner = new Scanner(System.in);
         System.out.println("What month's birthstone do you want to know?");
         monthNumber = Integer.parseInt(myScanner.nextLine());

@@ -56,33 +56,48 @@ public class MiniZork {
             } else if (action.equals("leave")) {
                 System.out.println("The house looked on the brink of collapse anyway");
                 System.out.println("Good choice - you've not been crushed");
-                System.out.println("Go to the forest or ");  //Second main question
+                System.out.println("Go to the forest or go next to the river? ");  //Second main question
 
                 action = userInput.nextLine();
-            }
-        } if (action.equals("go to the forest")) {
-            System.out.println("The forest is very dark as you approach ");
-            System.out.println("You hear odd whispering ");
-            System.out.println("Would you like to carry on or turn back? ");
-            action = userInput.next();
 
-            if (action.equals("carry on")) {
-                System.out.println("The forest is growing increasingly dark");
-                System.out.println("The whispering now sounds more like chanting");
-                System.out.print("Would you like to continue or search the fields instead? ");
-                action = userInput.next();
+                if (action.equals("go to the forest")) {
+                    System.out.println("The forest is very dark as you approach ");
+                    System.out.println("You hear odd whispering ");
+                    System.out.println("Would you like to carry on or turn back? ");
+                    action = userInput.next();
 
-                if (action.equals("continue")) {
-                    System.out.println("Turns out, the forest is not a nice place");
-                    System.out.println("You've been sacrificed");
-                } else if (action.equals("search the fields")) {
-                    System.out.println("You decide to search the fields instead");
-                    System.out.println("Good choice! you found some gold!");
+                    if (action.equals("carry on")) {
+                        System.out.println("The forest is growing increasingly dark");
+                        System.out.println("The whispering now sounds more like chanting");
+                        System.out.print("Would you like to continue or search the fields instead? ");
+                        action = userInput.next();
+
+                        if (action.equals("continue")) {
+                            System.out.println("Turns out, the forest is not a nice place");
+                            System.out.println("You've been sacrificed");
+                        } else if (action.equals("search the fields")) {
+                            System.out.println("You decide to search the fields instead");
+                            System.out.println("Good choice! you found some gold!");
+                        }
+                    } else  if(action.equals("turn back")) {
+                        System.out.println("That forest is notorious for odd going ons");
+                        System.out.println("Probably the correct choice");
+                        System.out.println("You go and explore the house instead");
+                    }
+                } else if (action.equals("go next to the river")) {
+                    System.out.println("The river is wide and slow.");
+                    System.out.println("Would you like to touch the water or go back?");
+                    action = userInput.nextLine();
+
+                    if(action.equals("touch the water")){
+                        System.out.println("The river is not a safe plase.");
+                        System.out.println("You have been eaten by a big fish!");
+                    } else if (action.equals("go back")) {
+                        System.out.println("It seems you've lost your way");
+                        System.out.println("Someone is getting closer to you...");
+                        System.out.println("He has an axe and kills you...");
+                    }
                 }
-            } else if (action.equals("turn back")) {
-                System.out.println("That forest is notorious for odd going ons");
-                System.out.println("Probably the correct choice");
-                System.out.println("You go and explore the house instead");
             }
         }
     }

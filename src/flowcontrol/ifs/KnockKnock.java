@@ -18,10 +18,16 @@ public class KnockKnock {
         } else {
             System.out.println("Dude, do I -look- like " + nameGuess);
         }
-        /* If improper capitalization is used, the strings won't match.
-         *  A potential fix is to use the toUpperCase() (with submission all caps ) or toLowerCase() (with submission all lower) String methods.
-         * Then they will match i.e. nameGuess = nameGuess.toLowerCase() and change Marty McFly to marty mcfly, so it'll work with all different cases of capital letters!
+        /*
+        If improper capitalization is used, the strings won't match.
+          A potential fix is to use the toUpperCase() (with submission all caps ) or toLowerCase() (with submission all lower)
+          String methods.
+         Then they will match i.e. nameGuess = nameGuess.toLowerCase() and change Marty McFly to marty mcfly,
+         so it'll work with all different cases of capital letters!
 
+          another way:
+          String nameGuess = (inputReader.nextLine()).toLowerCase();
+            if (nameGuess.equals(("Marty McFly").toLowerCase())) {...
          */
     }
 

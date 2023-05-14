@@ -29,7 +29,8 @@ public class SpaceRustlers {
             System.out.println("Oh no! The herds got restless and took over! Looks like we're hamburger now!!");
         }
         //What does the else if and if do? we want to consider multiple conditions
-        //if statement: each statement is evaluated independently of each other,
+        //we want to consider multiple conditions
+        // if statement: each statement is evaluated independently of each other,
         //If you remove the else from the else if, what does THAT do? (Answer in a comment)
         //each statement is evaluated independently of each other
     }

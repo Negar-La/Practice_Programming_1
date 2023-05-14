@@ -29,7 +29,7 @@ public class PickyEater {
 
         // Conditionals should go here! Here's the first one for FREE!
         //m question: for letter "y" here can we use both single and double quotation ?
-        if (hasSpinach.equals("y") || funnyName.equals("y")) {
+        if (hasSpinach.equals('y') || funnyName.equals('y')) {
             System.out.println("There's no way he'll eat that!");
         }
         if ((timesFried > 2 && timesFried < 4) && chocolatedCovered.equals("y")){
