@@ -29,9 +29,5 @@ public class GuessMeMore {
                 System.out.println("Wow, nice guess! That was it! "+ myNumber);
             }
         }
-
-
-
-
     }
 }

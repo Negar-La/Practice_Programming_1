@@ -6,25 +6,28 @@ public class one {
     public static void main(String[] args) {
 
 
-
-        int[] myArray = {5, 4, 3, 2, 1};
-
-        for(int i = 0; i <myArray.length; i++) { //number of rows
-            for (int j =0; j<myArray[i]; j++) { //number of stars in each line
-                System.out.print("*");
-            }
-            System.out.println("");
-        }
+        
 
 
-        int[] myArray2 = {10, 14, 30, 2, 11};
 
-        for(int i = 0; i <myArray.length; i++) { //number of rows
-            for (int j =0; j<myArray2[i]; j++) { //number of stars in each line
-                System.out.print("*");
-            }
-            System.out.println("");
-        }
+//        int[] myArray = {5, 4, 3, 2, 1};
+//
+//        for(int i = 0; i <myArray.length; i++) { //number of rows
+//            for (int j =0; j<myArray[i]; j++) { //number of stars in each line
+//                System.out.print("*");
+//            }
+//            System.out.println("");
+//        }
+//
+//
+//        int[] myArray2 = {10, 14, 30, 2, 11};
+//
+//        for(int i = 0; i <myArray.length; i++) { //number of rows
+//            for (int j =0; j<myArray2[i]; j++) { //number of stars in each line
+//                System.out.print("*");
+//            }
+//            System.out.println("");
+//        }
 
 
 
